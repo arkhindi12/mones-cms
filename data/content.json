@@ -1,0 +1,409 @@
+{
+  "brand": {
+    "name": "MG Mones Galery",
+    "tagline": "Desain & Bangun Rumah",
+    "colors": {
+      "primary": "#C9A961",
+      "terracotta": "#B87456",
+      "charcoal": "#2B2B2B"
+    },
+    "fonts": {
+      "body": "Inter",
+      "heading": "Playfair Display"
+    }
+  },
+  "hero": {
+    "headline": "Wujudkan Rumah Impian Anda Bersama Jasa Desain & Bangun Rumah Profesional di Jabodetabek",
+    "subheadline": "MG Mones Galery membantu Anda mulai dari perencanaan desain, visual 3D, renovasi, hingga pembangunan rumah dengan hasil rapi, estetik, dan sesuai kebutuhan keluarga.",
+    "cta_primary": "Konsultasi Gratis via WhatsApp",
+    "cta_secondary": "Lihat Portofolio Proyek",
+    "background_image": "/media/img_03_DT3_9DOlGf_.jpg"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "problems",
+      "name": "Masalah Customer",
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "services",
+      "name": "Layanan",
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "advantages",
+      "name": "Keunggulan",
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "portfolio",
+      "name": "Portofolio",
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "videos",
+      "name": "Video Showcase",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "process",
+      "name": "Proses Kerja",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "packages",
+      "name": "Paket Layanan",
+      "enabled": true,
+      "order": 8
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimoni",
+      "enabled": true,
+      "order": 9
+    },
+    {
+      "id": "areas",
+      "name": "Area Layanan",
+      "enabled": true,
+      "order": 10
+    },
+    {
+      "id": "faq",
+      "name": "FAQ",
+      "enabled": true,
+      "order": 11
+    },
+    {
+      "id": "cta",
+      "name": "CTA Akhir",
+      "enabled": true,
+      "order": 12
+    }
+  ],
+  "problems": [
+    {
+      "id": "pr1",
+      "text": "Bingung menentukan desain rumah yang cocok"
+    },
+    {
+      "id": "pr2",
+      "text": "Takut biaya pembangunan membengkak"
+    },
+    {
+      "id": "pr3",
+      "text": "Sulit mencari tukang atau kontraktor yang amanah"
+    },
+    {
+      "id": "pr4",
+      "text": "Ingin rumah estetik tapi tetap fungsional"
+    },
+    {
+      "id": "pr5",
+      "text": "Butuh desain 3D sebelum rumah dibangun"
+    },
+    {
+      "id": "pr6",
+      "text": "Ingin hasil rapi, nyaman, dan sesuai budget"
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "title": "Desain Rumah 2D & 3D",
+      "description": "Gambar kerja lengkap dan visualisasi 3D realistis untuk membantu Anda membayangkan rumah impian sebelum dibangun.",
+      "icon": "🏠"
+    },
+    {
+      "id": "s2",
+      "title": "Bangun Rumah Baru",
+      "description": "Pembangunan rumah dari nol dengan pengawasan ketat, material berkualitas, dan hasil rapi sesuai desain.",
+      "icon": "🏗️"
+    },
+    {
+      "id": "s3",
+      "title": "Renovasi Rumah",
+      "description": "Ubah tampilan rumah lama menjadi lebih modern, fungsional, dan nyaman untuk keluarga.",
+      "icon": "🔨"
+    },
+    {
+      "id": "s4",
+      "title": "Desain Fasad",
+      "description": "Percantik tampilan luar rumah dengan desain fasad yang estetik dan sesuai karakter Anda.",
+      "icon": "🎨"
+    },
+    {
+      "id": "s5",
+      "title": "Desain Interior",
+      "description": "Tata ruang dalam rumah yang nyaman, fungsional, dan mencerminkan gaya hidup keluarga.",
+      "icon": "🛋️"
+    },
+    {
+      "id": "s6",
+      "title": "RAB & Konsultasi",
+      "description": "Rencana Anggaran Biaya (RAB) detail dan konsultasi gratis untuk membantu perencanaan proyek Anda.",
+      "icon": "📊"
+    },
+    {
+      "id": "s7",
+      "title": "Pengawasan Proyek",
+      "description": "Monitoring dan pengawasan pembangunan untuk memastikan kualitas dan ketepatan waktu.",
+      "icon": "👷"
+    },
+    {
+      "id": "s8",
+      "title": "Legalitas & IMB",
+      "description": "Bantuan pengurusan Izin Mendirikan Bangunan (IMB) dan dokumen legalitas lainnya.",
+      "icon": "📋"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "p1",
+      "title": "Desain Rumah Minimalis Modern",
+      "location": "Jakarta",
+      "description": "Konsep rumah minimalis yang estetik, rapi, dan fungsional.",
+      "image": "/media/img_01_DYD5VTtFO9t.jpg",
+      "notice": true
+    },
+    {
+      "id": "p2",
+      "title": "Fasad Rumah Elegan",
+      "location": "Bekasi",
+      "description": "Tampilan fasad rumah modern yang berkarakter.",
+      "image": "/media/img_04_DTxEjVfFNPB.jpg",
+      "notice": true
+    },
+    {
+      "id": "p3",
+      "title": "Desain Interior Rumah",
+      "location": "Depok",
+      "description": "Penataan interior rumah yang nyaman dan estetik.",
+      "image": "/media/img_09_DQI8YEgEesC.jpg",
+      "notice": true
+    },
+    {
+      "id": "p4",
+      "title": "Proses Pembangunan Rumah",
+      "location": "Tangerang",
+      "description": "Dokumentasi proses pembangunan rumah yang rapi dan terarah.",
+      "image": "/media/img_05_DTuLNH_jw0F.jpg",
+      "notice": false
+    },
+    {
+      "id": "p5",
+      "title": "Renovasi Rumah Keluarga",
+      "location": "Bogor",
+      "description": "Renovasi rumah yang mempercantik tampilan hunian.",
+      "image": "/media/img_10_DOD4fVPFAMG.jpg",
+      "notice": true
+    },
+    {
+      "id": "p6",
+      "title": "Hasil Jadi Rumah Modern",
+      "location": "Jakarta Selatan",
+      "description": "Hasil akhir rumah modern dengan finishing rapi.",
+      "image": "/media/img_11_DM97-5LpAXl.jpg",
+      "notice": false
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Alhamdulillah rumah jadi sesuai keinginan, tim MG Mones sangat profesional dan responsif. Hasil memuaskan!",
+      "name": "Bapak Andi",
+      "location": "Bekasi"
+    },
+    {
+      "id": "t2",
+      "quote": "Desain 3D-nya detail banget, jadi bisa bayangin rumah sebelum dibangun. Proses pembangunan juga rapi dan tepat waktu.",
+      "name": "Ibu Siti",
+      "location": "Depok"
+    },
+    {
+      "id": "t3",
+      "quote": "Renovasi rumah lama jadi keren, budget sesuai RAB awal. Recommended banget untuk yang mau bangun atau renovasi rumah!",
+      "name": "Bapak Rudi",
+      "location": "Jakarta Timur"
+    },
+    {
+      "id": "mpth8zytwdrica",
+      "quote": "Great work!",
+      "name": "Test User",
+      "location": "Bekasi"
+    }
+  ],
+  "faq": [
+    {
+      "id": "f1",
+      "question": "Berapa lama proses desain rumah?",
+      "answer": "Proses desain 2D dan 3D biasanya memakan waktu 7-14 hari kerja, tergantung kompleksitas desain dan revisi yang diminta."
+    },
+    {
+      "id": "f2",
+      "question": "Apakah bisa konsultasi gratis dulu?",
+      "answer": "Ya, kami menyediakan konsultasi gratis via WhatsApp untuk membahas kebutuhan, budget, dan konsep rumah impian Anda."
+    },
+    {
+      "id": "f3",
+      "question": "Bagaimana sistem pembayaran?",
+      "answer": "Sistem pembayaran bertahap sesuai progres pekerjaan. Detail akan dijelaskan saat konsultasi dan tertuang dalam kontrak kerja."
+    },
+    {
+      "id": "f4",
+      "question": "Apakah ada garansi?",
+      "answer": "Ya, kami memberikan garansi untuk pekerjaan struktur dan finishing sesuai kesepakatan dalam kontrak."
+    },
+    {
+      "id": "f5",
+      "question": "Area mana saja yang dilayani?",
+      "answer": "Kami melayani area Jabodetabek: Jakarta, Bogor, Depok, Tangerang, Bekasi, dan sekitarnya."
+    },
+    {
+      "id": "f6",
+      "question": "Apakah bisa bangun rumah dengan budget terbatas?",
+      "answer": "Bisa! Kami akan membantu menyesuaikan desain dan material dengan budget yang Anda miliki tanpa mengurangi kualitas."
+    }
+  ],
+  "contact": {
+    "whatsapp": "62XXXXXXXXXXX",
+    "instagram": "@mg_monesgalery",
+    "areas": [
+      "Jakarta",
+      "Bogor",
+      "Depok",
+      "Tangerang",
+      "Bekasi",
+      "Jakarta Selatan",
+      "Jakarta Timur",
+      "Jakarta Barat",
+      "Jakarta Utara",
+      "Jakarta Pusat",
+      "Tangerang Selatan",
+      "Cibubur",
+      "BSD",
+      "Bintaro",
+      "Cikarang",
+      "Tambun",
+      "Sentul",
+      "dan sekitarnya"
+    ]
+  },
+  "advantages": [
+    "Desain menyesuaikan kebutuhan dan budget",
+    "Konsultasi konsep rumah dari awal",
+    "Visual desain jelas sebelum pembangunan",
+    "Cocok untuk rumah minimalis, modern, tropis, dan elegan",
+    "Area layanan Jabodetabek",
+    "Proses kerja lebih terarah",
+    "Komunikasi mudah via WhatsApp",
+    "Portofolio bisa dilihat langsung dari Instagram"
+  ],
+  "videos": [
+    {
+      "id": "v1",
+      "src": "/media/vid_02_DVcbuFigf8y.mp4",
+      "thumb": "/media/img_02_DVcbuFigf8y.jpg"
+    },
+    {
+      "id": "v2",
+      "src": "/media/vid_05_DTuLNH_jw0F.mp4",
+      "thumb": "/media/img_05_DTuLNH_jw0F.jpg"
+    },
+    {
+      "id": "v3",
+      "src": "/media/vid_06_DTO-EPSkQdN.mp4",
+      "thumb": "/media/img_06_DTO-EPSkQdN.jpg"
+    },
+    {
+      "id": "v4",
+      "src": "/media/vid_07_DSur58XApza.mp4",
+      "thumb": "/media/img_07_DSur58XApza.jpg"
+    },
+    {
+      "id": "v5",
+      "src": "",
+      "thumb": "/media/img_08_DReCK_SlOKf.jpg"
+    },
+    {
+      "id": "v6",
+      "src": "",
+      "thumb": "/media/img_12_DM7EClCxgT4.jpg"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Konsultasi Kebutuhan",
+      "desc": "Ceritakan konsep dan budget Anda."
+    },
+    {
+      "step": 2,
+      "title": "Survey Lokasi",
+      "desc": "Survey lokasi atau diskusi online."
+    },
+    {
+      "step": 3,
+      "title": "Konsep Desain",
+      "desc": "Desain 2D dan visualisasi 3D."
+    },
+    {
+      "step": 4,
+      "title": "Estimasi RAB",
+      "desc": "RAB detail agar lebih terencana."
+    },
+    {
+      "step": 5,
+      "title": "Revisi & Finalisasi",
+      "desc": "Revisi hingga Anda puas."
+    },
+    {
+      "step": 6,
+      "title": "Pembangunan",
+      "desc": "Dikerjakan dengan pengawasan ketat."
+    },
+    {
+      "step": 7,
+      "title": "Serah Terima",
+      "desc": "Diserahterimakan dengan kualitas terjaga."
+    }
+  ],
+  "packages": [
+    {
+      "id": "pk1",
+      "title": "Paket Desain Rumah",
+      "desc": "Untuk yang ingin membuat konsep dan visual rumah terlebih dahulu.",
+      "icon": "✏️"
+    },
+    {
+      "id": "pk2",
+      "title": "Paket Bangun Rumah",
+      "desc": "Untuk yang sudah punya tanah dan ingin langsung membangun.",
+      "icon": "🏗️"
+    },
+    {
+      "id": "pk3",
+      "title": "Paket Renovasi",
+      "desc": "Untuk yang ingin memperbaiki atau mempercantik rumah.",
+      "icon": "🔨"
+    },
+    {
+      "id": "pk4",
+      "title": "Desain + Bangun",
+      "desc": "Proses dari awal sampai jadi ditangani terarah.",
+      "icon": "🏠"
+    }
+  ]
+}
