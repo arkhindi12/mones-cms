@@ -27,32 +27,32 @@
       "order": 1
     },
     {
+      "id": "videos",
+      "name": "Video Showcase",
+      "enabled": true,
+      "order": 2
+    },
+    {
       "id": "problems",
       "name": "Masalah Customer",
       "enabled": true,
-      "order": 2
+      "order": 3
     },
     {
       "id": "services",
       "name": "Layanan",
       "enabled": true,
-      "order": 3
+      "order": 4
     },
     {
       "id": "advantages",
       "name": "Keunggulan",
       "enabled": true,
-      "order": 4
+      "order": 5
     },
     {
       "id": "portfolio",
       "name": "Portofolio",
-      "enabled": true,
-      "order": 5
-    },
-    {
-      "id": "videos",
-      "name": "Video Showcase",
       "enabled": true,
       "order": 6
     },
@@ -315,22 +315,22 @@
     {
       "id": "v1",
       "src": "/media/vid_02_DVcbuFigf8y.mp4",
-      "thumb": "/media/img_02_DVcbuFigf8y.jpg"
+      "thumb": "/media/poster_v1.jpg"
     },
     {
       "id": "v2",
       "src": "/media/vid_05_DTuLNH_jw0F.mp4",
-      "thumb": "/media/img_05_DTuLNH_jw0F.jpg"
+      "thumb": "/media/poster_v2.jpg"
     },
     {
       "id": "v3",
       "src": "/media/vid_06_DTO-EPSkQdN.mp4",
-      "thumb": "/media/img_06_DTO-EPSkQdN.jpg"
+      "thumb": "/media/poster_v3.jpg"
     },
     {
       "id": "v4",
       "src": "/media/vid_07_DSur58XApza.mp4",
-      "thumb": "/media/img_07_DSur58XApza.jpg"
+      "thumb": "/media/poster_v4.jpg"
     },
     {
       "id": "v5",
@@ -347,37 +347,44 @@
     {
       "step": 1,
       "title": "Konsultasi Kebutuhan",
-      "desc": "Ceritakan konsep dan budget Anda."
+      "desc": "Ceritakan konsep dan budget Anda.",
+      "id": "proc1"
     },
     {
       "step": 2,
       "title": "Survey Lokasi",
-      "desc": "Survey lokasi atau diskusi online."
+      "desc": "Survey lokasi atau diskusi online.",
+      "id": "proc2"
     },
     {
       "step": 3,
       "title": "Konsep Desain",
-      "desc": "Desain 2D dan visualisasi 3D."
+      "desc": "Desain 2D dan visualisasi 3D.",
+      "id": "proc3"
     },
     {
       "step": 4,
       "title": "Estimasi RAB",
-      "desc": "RAB detail agar lebih terencana."
+      "desc": "RAB detail agar lebih terencana.",
+      "id": "proc4"
     },
     {
       "step": 5,
       "title": "Revisi & Finalisasi",
-      "desc": "Revisi hingga Anda puas."
+      "desc": "Revisi hingga Anda puas.",
+      "id": "proc5"
     },
     {
       "step": 6,
       "title": "Pembangunan",
-      "desc": "Dikerjakan dengan pengawasan ketat."
+      "desc": "Dikerjakan dengan pengawasan ketat.",
+      "id": "proc6"
     },
     {
       "step": 7,
       "title": "Serah Terima",
-      "desc": "Diserahterimakan dengan kualitas terjaga."
+      "desc": "Diserahterimakan dengan kualitas terjaga.",
+      "id": "proc7"
     }
   ],
   "packages": [

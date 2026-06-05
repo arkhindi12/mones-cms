@@ -37,6 +37,20 @@ router.post('/section-order', requireAuth, (req,res)=>{
   writeContent(data); res.json({success:true});
 });
 
+router.post('/items-order/:type', requireAuth, (req,res)=>{
+  const data = readContent();
+  const type = req.params.type;
+  if(!Array.isArray(data[type])) return res.status(400).json({error:'Invalid type'});
+  const ids = Array.isArray(req.body.ids) ? req.body.ids : [];
+  const byId = new Map(data[type].map(item => [item.id, item]));
+  const ordered = ids.map(id => byId.get(id)).filter(Boolean);
+  const seen = new Set(ordered.map(item => item.id));
+  const rest = data[type].filter(item => !seen.has(item.id));
+  data[type] = [...ordered, ...rest];
+  writeContent(data);
+  res.json({success:true, items:data[type]});
+});
+
 router.post('/items/:type', requireAuth, (req,res)=>{
   const data=readContent(); const type=req.params.type;
   if(!Array.isArray(data[type])) return res.status(400).json({error:'Invalid type'});

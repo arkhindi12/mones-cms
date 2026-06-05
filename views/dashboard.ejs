@@ -1,1 +1,80 @@
-<!doctype html><html><head><title>MG Mones CMS</title><link rel="stylesheet" href="/admin/static/style.css"></head><body><header><h1>MG Mones CMS</h1><nav><button onclick="window.open('/', '_blank')">Preview</button><button onclick="generate()">Generate HTML</button><a href="/admin/logout">Logout</a></nav></header><main><aside><button onclick="show('brand')">Brand</button><button onclick="show('contact')">Contact</button><button onclick="show('hero')">Hero</button><button onclick="show('sections')">Sections</button><button onclick="show('services')">Services</button><button onclick="show('portfolio')">Portfolio</button><button onclick="show('testimonials')">Testimonials</button><button onclick="show('faq')">FAQ</button><button onclick="show('media')">Media</button><button onclick="show('security')">Security</button></aside><section id="app"></section></main><script>window.CONTENT=<%- JSON.stringify(content) %></script><script src="/admin/static/admin.js"></script></body></html>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MG Mones CMS</title>
+  <link rel="stylesheet" href="/admin/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brandbar">
+      <div class="brandmark">MG</div>
+      <div>
+        <h1>MG Mones CMS</h1>
+        <p>Edit landing page dengan lebih cepat</p>
+      </div>
+    </div>
+    <nav class="topnav">
+      <button class="ghost" onclick="window.open('/', '_blank')">Lihat Website</button>
+      <button class="ghost" onclick="save()">Simpan Draft</button>
+      <button class="primary" onclick="generate()">Publish Live</button>
+      <a href="/admin/logout">Logout</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="side-group">
+        <div class="side-title">Pengaturan</div>
+        <button onclick="show('brand')">Brand</button>
+        <button onclick="show('contact')">Contact</button>
+        <button onclick="show('hero')">Hero</button>
+        <button onclick="show('sections')">Sections</button>
+        <button onclick="show('security')">Security</button>
+      </div>
+
+      <div class="side-group">
+        <div class="side-title">Konten</div>
+        <button onclick="show('problems')">Problems</button>
+        <button onclick="show('services')">Services</button>
+        <button onclick="show('advantages')">Advantages</button>
+        <button onclick="show('portfolio')">Portfolio</button>
+        <button onclick="show('videos')">Videos</button>
+        <button onclick="show('process')">Process</button>
+        <button onclick="show('packages')">Packages</button>
+        <button onclick="show('testimonials')">Testimonials</button>
+        <button onclick="show('faq')">FAQ</button>
+        <button onclick="show('media')">Media</button>
+      </div>
+    </aside>
+
+    <section class="content-area">
+      <div class="action-strip">
+        <div>
+          <strong id="viewTitle">Dashboard</strong>
+          <p id="viewHint">Kelola konten landing page dan publish jika sudah siap.</p>
+        </div>
+        <div class="statusbox" id="saveState">Ready</div>
+      </div>
+      <section id="app"></section>
+    </section>
+  </main>
+
+  <div id="mediaModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>Pilih Media</h3>
+        <button class="icon-btn" onclick="closeMediaPicker()">✕</button>
+      </div>
+      <div class="modal-tools">
+        <input id="mediaSearch" placeholder="Cari file media..." oninput="filterMediaPicker()">
+      </div>
+      <div id="mediaPickerGrid" class="media-grid picker-grid"></div>
+    </div>
+  </div>
+
+  <script>window.CONTENT=<%- JSON.stringify(content) %></script>
+  <script src="/admin/static/admin.js"></script>
+</body>
+</html>
